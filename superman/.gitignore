@@ -1,0 +1,30 @@
+# 二进制输出
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# `go test -c` 输出的测试文件
+*.test
+
+# go coverage tool
+*.out
+
+# 杂物
+.DS_Store
+.idea/
+.vscode/
+
+# Ginex/Kite 编译输出
+output/
+
+# Go vendor 依赖
+vendor/
+
+# ad/poi 是一个 monorepo（见 ad/poi/README.md）
+# 禁止在根目录创建 go.mod/go.sum
+
+# 日志
+*.log
+
